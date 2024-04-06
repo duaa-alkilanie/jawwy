@@ -2,18 +2,17 @@ package tests;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pages.AlgeriaCountryPage;
+import pages.JordanCountryPage;
 import pages.HomePage;
-import pages.UAECountryPage;
 
-public class AlgeriaCountryTest extends TestBase {
+public class JordanCountryTest extends TestBase {
     HomePage homePage;
-    AlgeriaCountryPage algeriaCountryPage;
+    JordanCountryPage jordanCountryPage;
 
-    @Test(priority = 1, description = "click on AlgeriaCountry btn and check the types")
-    public void checkTheAlgeriaCountryTypes() {
+    @Test(priority = 1, description = "click on jordan Country btn and check the types")
+    public void checkTheJordanCountryTypes() {
         homePage = new HomePage(driver);
-        algeriaCountryPage = new AlgeriaCountryPage(driver);
+        jordanCountryPage = new JordanCountryPage(driver);
         homePage.clickonCountryBtn().click();
         homePage.clickOnCountryAlgeriaBtn().click();
         Boolean algeriaCountryBtn = homePage.clickOnCountryAlgeriaBtn().isEnabled();
@@ -25,21 +24,21 @@ public class AlgeriaCountryTest extends TestBase {
         String liteTypeTitle = "LITE";
         String classicTypeTitle = "CLASSIC";
         String premiumTypeTitle = "PREMIUM";
-        Assert.assertTrue(algeriaCountryBtn, "algeria country btn is not enable");
+        Assert.assertTrue(algeriaCountryBtn, "jordan country btn is not enable");
         Assert.assertEquals(LiteTypeValue, liteTypeTitle);
         Assert.assertEquals(classicTypeValue, classicTypeTitle);
         Assert.assertEquals(premiumTypeValue, premiumTypeTitle);
 
     }
 
-    @Test(priority = 2, description = "check the prices and currency for UAE")
+    @Test(priority = 2, description = "check the prices and currency for Jorden")
     public void checkPricesAndCurrency() {
         homePage = new HomePage(driver);
-        algeriaCountryPage = new AlgeriaCountryPage(driver);
+        jordanCountryPage = new JordanCountryPage(driver);
         homePage.clickonCountryBtn().click();
         homePage.clickOnCountryAlgeriaBtn().click();
         String priceAndCurrency = homePage.checkPriceAndCurrency().getText();
-        String expected = "";
+        String expected = "From 0.99 JOD/week";
         System.out.println(expected);
         Assert.assertEquals(priceAndCurrency, expected);
     }

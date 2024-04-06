@@ -4,11 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00a47e31-1ef4-4bf7-b32d-b9570392c653" name="Changes" comment="" />
+    <list default="true" id="00a47e31-1ef4-4bf7-b32d-b9570392c653" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/JordanCountryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/JordanCountryPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/PageBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/PageBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/UAECountryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/UAECountryPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/HomePageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/JordanCountryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/JordanCountryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/UAECountryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/UAECountryTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -27,10 +46,149 @@
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG./Users/duaaakram/Downloads/AutomationTask/jawwy/testng.xml.executor": "Run",
+    "TestNG.AlgeriaCountryTest.checkPricesAndCurrency.executor": "Run",
+    "TestNG.AlgeriaCountryTest.checkTheAlgeriaCountryTypes.executor": "Run",
+    "TestNG.HomePageTest.checkPricesAndCurrency.executor": "Run",
+    "TestNG.HomePageTest.executor": "Run",
+    "TestNG.HomePageTest.goToEgyptAndCheckTypes.executor": "Run",
+    "TestNG.HomePageTest.goToUAEAndCheckTypes.executor": "Run",
+    "TestNG.HomePageTest.useWebsiteAsGuest.executor": "Run",
+    "TestNG.JordanCountryTest.checkPricesAndCurrency.executor": "Run",
+    "TestNG.UAECountryTest.checkPricesAndCurrency.executor": "Run",
+    "TestNG.UAECountryTest.checkUAETypes.executor": "Run",
+    "TestNG.testNG.executor": "Run",
+    "git-widget-placeholder": "jawwy__website",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="TestNG.UAECountryTest">
+    <configuration name="HomePageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="jawwy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.HomePageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JordanCountryTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="jawwy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.JordanCountryTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JordanCountryTest.checkPricesAndCurrency" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="jawwy" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.JordanCountryTest" />
+      <option name="METHOD_NAME" value="checkPricesAndCurrency" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UAECountryTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="jawwy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.UAECountryTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/duaaakram/Downloads/AutomationTask/jawwy/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="jawwy" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testNG" type="TestNG">
+      <module name="jawwy" />
+      <shortenClasspath name="NONE" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.testNG" />
+      <item itemvalue="TestNG./Users/duaaakram/Downloads/AutomationTask/jawwy/testng.xml" />
+      <item itemvalue="TestNG.HomePageTest" />
+      <item itemvalue="TestNG.JordanCountryTest" />
+      <item itemvalue="TestNG.UAECountryTest" />
+      <item itemvalue="TestNG.JordanCountryTest.checkPricesAndCurrency" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.UAECountryTest" />
+        <item itemvalue="TestNG.JordanCountryTest" />
+        <item itemvalue="TestNG.HomePageTest" />
+        <item itemvalue="TestNG./Users/duaaakram/Downloads/AutomationTask/jawwy/testng.xml" />
+        <item itemvalue="TestNG.JordanCountryTest.checkPricesAndCurrency" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

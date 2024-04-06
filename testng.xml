@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testing Jawwy website">
+    <test name="check countries for jawway website ">
+        <classes>
+            <class name="tests.HomePageTest"/>
+            <class name="tests.UAECountryTest"/>
+            <class name="tests.JordanCountryTest"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
