@@ -1,0 +1,15 @@
+<WebsiteList>
+    <Website>
+        <URL>https://www.example1.com/</URL>
+        <Title>Example 1</Title>
+        <Description>This is an example website 1.</Description>
+        <CreatedDate>10/30/2019 6:41:56 AM</CreatedDate>
+    </Website>
+    <Website>
+        <URL>https://www.example2.com/</URL>
+        <Title>Example 2</Title>
+        <Description>This is an example website 2.</Description>
+        <CreatedDate>11/15/2020 9:30:00 PM</CreatedDate>
+    </Website>
+    <!-- Add more Website entries as needed -->
+</WebsiteList>
