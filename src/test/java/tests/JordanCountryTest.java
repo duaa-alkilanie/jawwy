@@ -14,8 +14,8 @@ public class JordanCountryTest extends TestBase {
         homePage = new HomePage(driver);
         jordanCountryPage = new JordanCountryPage(driver);
         homePage.clickonCountryBtn().click();
-        homePage.clickOnCountryAlgeriaBtn().click();
-        Boolean algeriaCountryBtn = homePage.clickOnCountryAlgeriaBtn().isEnabled();
+        homePage.clickOnCountryJordanBtn().click();
+        Boolean algeriaCountryBtn = homePage.clickOnCountryJordanBtn().isEnabled();
         String LiteTypeValue = homePage.checkTypeLite().getText();
         String classicTypeValue = homePage.checkClassicType().getText();
         String premiumTypeValue = homePage.checkTypePremium().getText();
@@ -25,9 +25,9 @@ public class JordanCountryTest extends TestBase {
         String classicTypeTitle = "CLASSIC";
         String premiumTypeTitle = "PREMIUM";
         Assert.assertTrue(algeriaCountryBtn, "jordan country btn is not enable");
-        Assert.assertEquals(LiteTypeValue, liteTypeTitle);
-        Assert.assertEquals(classicTypeValue, classicTypeTitle);
-        Assert.assertEquals(premiumTypeValue, premiumTypeTitle);
+        Assert.assertEquals(LiteTypeValue,liteTypeTitle,"Incorrect lite type value");
+        Assert.assertEquals(classicTypeValue,classicTypeTitle,"Incorrect classic type value");
+        Assert.assertEquals(premiumTypeValue,premiumTypeTitle,"Incorrect premium type value");
 
     }
 
@@ -36,7 +36,7 @@ public class JordanCountryTest extends TestBase {
         homePage = new HomePage(driver);
         jordanCountryPage = new JordanCountryPage(driver);
         homePage.clickonCountryBtn().click();
-        homePage.clickOnCountryAlgeriaBtn().click();
+        homePage.clickOnCountryJordanBtn().click();
         String priceAndCurrency = homePage.checkPriceAndCurrency().getText();
         String expected = "From 0.99 JOD/week";
         System.out.println(expected);

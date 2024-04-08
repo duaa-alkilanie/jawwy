@@ -9,9 +9,11 @@ public class HomePageTest extends TestBase{
     @Test(priority = 1, description = "use the website as Egypt as country  ")
     public void useWebsiteAsGuest() {
         homePage = new HomePage(driver);
-
+        String expected="Jawwy TV | Watch Movies, Series & Live TV - Enjoy Free Trial";
         String getTitle = driver.getTitle();
-        Assert.assertEquals(getTitle, "Jawwy TV | Watch Movies, Series & Live TV - Enjoy Free Trial");
+        Assert.assertEquals(getTitle, expected,
+                "Jawwy TV | Watch Movies, Series & Live TV - Enjoy Free Trial\",\n" +
+             "Incorrect title on home page");
     }
     @Test(priority = 2,description = "use the website as Egypt and check the types exist")
     public void goToEgyptAndCheckTypes(){
@@ -24,9 +26,9 @@ public class HomePageTest extends TestBase{
        String liteTypeTitle="LITE";
        String  classicTypeTitle="CLASSIC";
        String premiumTypeTitle="PREMIUM";
-       Assert.assertEquals(LiteTypeValue,liteTypeTitle);
-       Assert.assertEquals(classicTypeValue,classicTypeTitle);
-       Assert.assertEquals(premiumTypeValue,premiumTypeTitle);
+       Assert.assertEquals(LiteTypeValue,liteTypeTitle,"Incorrect lite type value");
+       Assert.assertEquals(classicTypeValue,classicTypeTitle,"Incorrect classic type value");
+       Assert.assertEquals(premiumTypeValue,premiumTypeTitle,"Incorrect premium type value");
     }
   @Test(priority = 3,description = "go to UAE country and check types ")
     public void goToUAEAndCheckTypes(){
@@ -39,7 +41,7 @@ public class HomePageTest extends TestBase{
 
        System.out.println("UAE btn is enable"+UAEBtn );
         String expectedTitle= "Select Your Country";
-        Assert.assertEquals(expectedTitle,currentTitle);
+        Assert.assertEquals(expectedTitle,currentTitle,"Incorrect current country title");
         Assert.assertTrue(UAEBtn,"UAE country is not  enable");
   }
     @Test(priority = 4,description = "check the prices and currency for Egypt")
@@ -48,7 +50,7 @@ public class HomePageTest extends TestBase{
        String priceAndCurrency= homePage.checkPriceAndCurrency().getText();
        String expected ="From 7.00 Egyptian pound/month";
         System.out.println(expected);
-       Assert.assertEquals(priceAndCurrency,expected);
+       Assert.assertEquals(priceAndCurrency,expected,"Incorrect price and currency");
 
   }}
 

@@ -22,7 +22,7 @@ public class HomePage extends PageBase {
     @FindBy(id = "ae")
     WebElement UAEBtn;
     @FindBy(id = "jo-contry-lable")
-    WebElement algeriaBtnCountry;
+    WebElement jordanBtnCountry;
     @FindBy(xpath = "//*[@id=\"main\"]/div/div[1]/div[3]/div")
     WebElement priceAndCurrency;
 
@@ -44,8 +44,8 @@ public WebElement selectCountryTitle(){
 public WebElement clickOnUAECountry(){
         return UAEBtn;
 }
-public WebElement clickOnCountryAlgeriaBtn(){
-        return algeriaBtnCountry;
+public WebElement clickOnCountryJordanBtn(){
+        return jordanBtnCountry;
 }
 public WebElement checkPriceAndCurrency(){
         return priceAndCurrency;

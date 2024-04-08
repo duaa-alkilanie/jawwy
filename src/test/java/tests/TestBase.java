@@ -20,7 +20,6 @@ String urlForHomePageEgypt ="https://subscribe.jawwy.tv/eg-en";
 //    String urlForHomePageAlgeria ="https://subscribe.jawwy.tv/dz-en";
 
 
-
     @BeforeMethod
     public void openBrowser() {
         driver = new ChromeDriver();

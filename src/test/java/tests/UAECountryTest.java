@@ -23,9 +23,9 @@ public class UAECountryTest extends TestBase {
         String liteTypeTitle = "LITE";
         String classicTypeTitle = "CLASSIC";
         String premiumTypeTitle = "PREMIUM";
-        Assert.assertEquals(LiteTypeValue, liteTypeTitle);
-        Assert.assertEquals(classicTypeValue, classicTypeTitle);
-        Assert.assertEquals(premiumTypeValue, premiumTypeTitle);
+        Assert.assertEquals(LiteTypeValue,liteTypeTitle,"Incorrect lite type value");
+        Assert.assertEquals(classicTypeValue,classicTypeTitle,"Incorrect classic type value");
+        Assert.assertEquals(premiumTypeValue,premiumTypeTitle,"Incorrect premium type value");
     }
 
     @Test(priority = 2, description = "check the prices and currency for UAE")

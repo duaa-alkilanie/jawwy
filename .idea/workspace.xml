@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00a47e31-1ef4-4bf7-b32d-b9570392c653" name="Changes" comment="add testng file">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/websites.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/convertXMLToJSON/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/convertXMLToJSON/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/HomePageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/JordanCountryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/JordanCountryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/UAECountryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/UAECountryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +41,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Debug",
+    "Application.convertXMLToJSON.Main.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -50,6 +55,7 @@
     "TestNG.HomePageTest.goToUAEAndCheckTypes.executor": "Run",
     "TestNG.HomePageTest.useWebsiteAsGuest.executor": "Run",
     "TestNG.JordanCountryTest.checkPricesAndCurrency.executor": "Run",
+    "TestNG.JordanCountryTest.checkTheJordanCountryTypes.executor": "Run",
     "TestNG.JordanCountryTest.executor": "Run",
     "TestNG.UAECountryTest.checkPricesAndCurrency.executor": "Run",
     "TestNG.UAECountryTest.checkUAETypes.executor": "Run",
@@ -64,15 +70,21 @@
       <recent name="org" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.UAECountryTest.checkUAETypes">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.Main" />
+  <component name="RunManager" selected="Application.convertXMLToJSON.Main">
+    <configuration name="convertXMLToJSON.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="convertXMLToJSON.Main" />
       <module name="jawwy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="convertXMLToJSON.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomePageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HomePageTest.useWebsiteAsGuest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="jawwy" />
       <extension name="coverage">
         <pattern>
@@ -82,14 +94,15 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.HomePageTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="METHOD_NAME" value="useWebsiteAsGuest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JordanCountryTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="JordanCountryTest.checkPricesAndCurrency" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="jawwy" />
       <extension name="coverage">
         <pattern>
@@ -99,14 +112,15 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.JordanCountryTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="METHOD_NAME" value="checkPricesAndCurrency" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UAECountryTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="JordanCountryTest.checkTheJordanCountryTypes" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="jawwy" />
       <extension name="coverage">
         <pattern>
@@ -115,8 +129,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.UAECountryTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="tests.JordanCountryTest" />
+      <option name="METHOD_NAME" value="checkTheJordanCountryTypes" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -160,20 +175,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.convertXMLToJSON.Main" />
       <item itemvalue="TestNG.testNG" />
+      <item itemvalue="TestNG.HomePageTest.useWebsiteAsGuest" />
+      <item itemvalue="TestNG.JordanCountryTest.checkPricesAndCurrency" />
+      <item itemvalue="TestNG.JordanCountryTest.checkTheJordanCountryTypes" />
       <item itemvalue="TestNG.UAECountryTest.checkUAETypes" />
-      <item itemvalue="TestNG.HomePageTest" />
-      <item itemvalue="TestNG.JordanCountryTest" />
-      <item itemvalue="TestNG.UAECountryTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.convertXMLToJSON.Main" />
+        <item itemvalue="TestNG.HomePageTest.useWebsiteAsGuest" />
+        <item itemvalue="TestNG.JordanCountryTest.checkTheJordanCountryTypes" />
+        <item itemvalue="TestNG.JordanCountryTest.checkPricesAndCurrency" />
         <item itemvalue="TestNG.UAECountryTest.checkUAETypes" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="TestNG.UAECountryTest" />
-        <item itemvalue="TestNG.JordanCountryTest" />
-        <item itemvalue="TestNG.HomePageTest" />
       </list>
     </recent_temporary>
   </component>
